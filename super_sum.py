@@ -8,7 +8,7 @@ def super_sum(*args):
 			if isinstance(item,int):
 				my_sum.append(item)
 
-			if isinstance(item,int):
+			if isinstance(item,list):
 				my_sum=my_sum + item
 		try:
 			total=sum(my_sum)
