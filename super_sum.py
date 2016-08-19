@@ -5,10 +5,10 @@ def super_sum(*args):
 		# loop through the items
 		for item in args:
 			#check if the items are integers or a list.
-			if type(item) is int:
+			if isinstance(item,int):
 				my_sum.append(item)
 
-			if type(item) is list:
+			if isinstance(item,int):
 				my_sum=my_sum + item
 		try:
 			total=sum(my_sum)
